@@ -1,27 +1,23 @@
 import React from 'react';
 import Footer from './Footer';
 import NavBar from './NavBar';
-import avatarAlan from "./img/avatarAlan3.jpg"
-import avatarSanti from "./img/avatarSantiago3.jpg"
-import avatarMarta from "./img/avatarMarta.jpg"
-import avatarLeonel from "./img/AvatarLeonel.jpg"
-import avatarLuis from "./img/avatarLuis3.jpg"
+import avatarAlan from "./img/Alan.png"
+import avatarSanti from "./img/Santy.png"
+import avatarMarta from "./img/Mel.png"
+import avatarLeonel from "./img/Leonell.png"
+import avatarLuis from "./img/Luis.png"
+import acercaDeNosotros from "./img/acercadeNosotros.jpg"
 
 const QuienesSomos = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <h1 className='container text-center mt-3'>Quienes Somos</h1>
+            <img src={acercaDeNosotros} alt="imagen acercaDeNosotros" width="100%" />
+            <h1 className='container text-center mt-5 text-info '>NUESTRO EQUIPO</h1>
              <hr />
             <section className='container mt-3'>
-                <h4>Misión</h4>
-                <p>Nuesta Misión es proporcionar a nuestros clientes una experiencia inolvidable que exceda sus expectativas, de forma coherente, para que vuelvan a elegirnos </p>
-                <h4>Visión</h4>
-                <p>Nuestra Visión es ser referentes, resaltándonos como la mejor opción para toda persona que desea tener una excelente experiencia </p>
-                <h4>Valores</h4>
-                <p>Respeto: por los demás, la comunidad en la que operamos y sobre todo, por nuestros clientes, siempre y en todas nuestras acciones. </p>
-                <p>Inclusión: queremos que todos se sientan parte de nuestra familia </p>
-                <p>Ambición: buscamos siempre mejorar, crecer, innovar</p>
+                <h3 className="text-info">Especialistas en crear contenidos, investigadores de los lugares mas recónditos de Google, rápidos hasta donde la calidad no se deteriora, eficaces en llevar a cabo un plan, tu plan y mas alla de todo eso tu equipo</h3>
+
             </section>
             <section>
                 <article className="album py-5">
