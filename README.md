@@ -2,6 +2,12 @@
 
 ##VARIABLES DE ENTORNO:
 EJECUTAR json-server --watch db.json --port 3004
+EJECUTAR npm start
+##librerias a instalar
+REACT BOOTSTRAP´
+SWEET ALERT 2
+IPIFY2 = npm i ipify2
+
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

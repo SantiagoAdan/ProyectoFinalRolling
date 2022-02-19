@@ -13,12 +13,14 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
     "formik": "^2.2.9",
+    "ipify2": "^1.1.2",
     "json-server": "^0.17.0",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.1.1",
+    "react-bootstrap": "^2.1.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "sweetalert2": "^11.4.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

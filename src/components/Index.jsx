@@ -6,16 +6,22 @@ import Cardsindex from "./Cardservicios";
 import Cardservicios from "./Cardservicios";
 import Cardsplanes from "./Cardplanes";
 import Cardtienda from "./Cardtienda";
+import Nuestrosaliados from "./Nuestrosaliados";
+import Nuestoequipo from "./Nuestoequipo";
+import Weather from "./weather/Weather";
 
 
-const Index = () => {
+const Index = ({weather}) => {
   return (
     <div>
       <NavBar />
-      <Carrousel />
+      <Weather weather={weather}></Weather>
+      <Carrousel />      
       <Cardservicios />
+      <Nuestrosaliados/>
       <Cardsplanes />
-      <Cardtienda/>
+      <Cardtienda />
+      <Nuestoequipo/>
       <Footer />
     </div>
   );

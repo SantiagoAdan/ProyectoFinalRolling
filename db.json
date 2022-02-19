@@ -1,25 +1,42 @@
 {
-    "pacientes":[
-      {
-        "nombreDueño": "Dueño",
-        "apellidoDueño": "Apellido",
-        "email": "example@example.com",
-        "telefono": "+549xxxxxxxxx",
-        "nombreMascota": "Mascota",
-        "especieMascota": "Perro",
-        "razaMascota": "Mestizo",
-        "id": 1
-      }
-    ],
-    "turnos":[
-      {
-        "detalleCita": "Control",
-        "veterinario": "Medico",
-        "mascota": "Mascota-nombre",
-        "fecha": "date",
-        "hora": "hour",
-        "id": 1
-      }
-    ]
-  
-  }
+  "pacientes": [
+    {
+      "nombreDueño": "Paciente 1",
+      "apellidoDueño": "Prueba",
+      "email": "paciente1prueba@gmail.com",
+      "telefono": "3816000000",
+      "nombreMascota": "Mascota 1",
+      "especieMascota": "Perro",
+      "razaMascota": "Mestizo",
+      "id": 1
+    },
+    {
+      "nombreDueño": "Paciente 2",
+      "apellidoDueño": "Prueba",
+      "email": "paciente2prueba@gmail.com",
+      "telefono": "3812000001",
+      "nombreMascota": "Mascota 2",
+      "especieMascota": "Perro",
+      "razaMascota": "Mestizo",
+      "id": 2
+    }
+  ],
+  "turnos": [
+    {
+      "detalleCita": "control gral., revisar nodulos",
+      "veterinario": "Addle Romina",
+      "mascota": "Mascota 1 - Paciente 1 Prueba",
+      "fecha": "2022-02-17",
+      "hora": "11:00",
+      "id": 1
+    },
+    {
+      "detalleCita": "Drenamiento nodulo oreja",
+      "veterinario": "Mezar Diego",
+      "mascota": "Mascota 2 - Paciente 2 Prueba",
+      "fecha": "2022-02-18",
+      "hora": "10:10",
+      "id": 2
+    }
+  ]
+}

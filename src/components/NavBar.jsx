@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
-import logo from './img/LOGOPNG.png';
+import logo from './img/rollingvet3d.png';
 
 
 const NavBar = () => {
@@ -37,6 +37,9 @@ const NavBar = () => {
               </Nav.Link>
               <Nav.Link href="/Contactanos" className="text-white">
                 CONTACTANOS
+              </Nav.Link>
+              <Nav.Link href="/Adm" className="text-white">
+                ADM
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
