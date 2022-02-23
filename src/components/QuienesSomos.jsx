@@ -17,7 +17,6 @@ const QuienesSomos = () => {
              <hr />
             <section className='container mt-3'>
                 <h3 className="text-info">Especialistas en crear contenidos, investigadores de los lugares mas recónditos de Google, rápidos hasta donde la calidad no se deteriora, eficaces en llevar a cabo un plan, tu plan y mas alla de todo eso tu equipo</h3>
-
             </section>
             <section>
                 <article className="album py-5">
