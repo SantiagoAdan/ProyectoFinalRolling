@@ -10,6 +10,8 @@ import Nuestrosaliados from "./Nuestrosaliados";
 import Nuestoequipo from "./Nuestoequipo";
 import Weather from "./weather/Weather";
 import Comentario from "./Comentario";
+import ListaComentarios from "./ListaComentarios";
+import ItemComentarios from "./ItemComentarios";
 
 
 
@@ -25,7 +27,8 @@ const Index = ({weather}) => {
       <Cardtienda />
       <Nuestoequipo/>
       <Comentario/>
-
+      <ListaComentarios/>
+      <ItemComentarios/>
       <Footer />
     </div>
   );
